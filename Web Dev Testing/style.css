@@ -1,0 +1,65 @@
+/*selector {
+	Property: value;
+}*/
+
+body {
+	font-family: 'Bitter', serif;
+	background-color: white;
+
+}
+h1 {color:darkred;}
+
+p{color:black;
+	justify-content: center;
+	display: flex;
+	border: 20px;
+	border: solid;
+	border-color: solid black; 
+	background-color: white}
+
+img { float: right;
+	border: solid; 
+	border-color: black
+	 }
+
+<style>
+.tomato {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 2px 20px;
+  display: inline-block;
+  display: inline-flex;
+}
+
+.lightblue {
+  background-color: powderblue;
+  color: black;
+  border: 2px solid black;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 2px 20px;
+  display: inline-block;
+  display: inline-flex;
+  
+}
+
+.leftform {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  height: 50px;
+  width: 260px;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
